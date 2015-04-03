@@ -1,7 +1,7 @@
 # BMS Interface Board
-A PCB to interface some of the main I/O functions of the Orion BMS with an electric car.
+A PCB to interface some of the main I/O functions of the [Orion BMS](http://www.orionbms.com/) with an electric car.
 
-This project is developed by the Electric Car Club at the University of British Columbia, whose current goal is to break the world record for the fastest 1/4 mile in a street-legal electric car. The car, named Elektra, is a 1963 Volkswagen Beetle.
+This project is developed by the [Electric Car Club](http://ubcelectriccar.com/) at the University of British Columbia, whose current goal is to break the world record for the fastest 1/4 mile in a street-legal electric car. The car, named Elektra, is a 1963 Volkswagen Beetle.
 
 ----------
 FUNCTIONALITY
@@ -18,7 +18,7 @@ The BMS Interface Board acts as a central physical hub to help integrate Ewert E
 CONTEXT
 ----------
 
-The Orion BMS manages a battery pack consisting of 30 Turnigy 22.2V 6S 5Ah lithium-ion polymer batteries (originally designed for use in R/C airplanes) arranged in 5 series modules of 6 parallel batteries each. This produces a total nominal pack voltage of 111V with a peak discharge rate of around 2,400A.
+The Orion BMS manages a battery pack consisting of 30 [Turnigy 22.2V 6S 5Ah](http://www.hobbyking.com/hobbyking/store/__38515__Turnigy_Heavy_Duty_Series_5000mAh_6S_60C_Lipo_Pack.html) lithium-ion polymer batteries (originally designed for use in R/C airplanes) arranged in 5 series modules of 6 parallel batteries each. This produces a total nominal pack voltage of 111V with a peak discharge rate of around 2,400A.
 
 The BMS monitors a variety of parameters, including total pack discharge, pack voltage, cell resistances, and state of charge. It is also responsible for monitoring the charging process of the pack, and is capable of balancing the individual cells within each battery. The addition of a Thermistor Expansion Module allows the BMS to monitor temperature data for each battery, which is a useful safety feature to detect abnormal battery behavior and take action to mitigate possible catastrophic failure before it occurs. The Orion BMS and Thermistor Expansion Module are both powered from a nominal +12V. The BMS actually has two separate power inputs, which are switched to place the unit in either charge or discharge mode.
 
