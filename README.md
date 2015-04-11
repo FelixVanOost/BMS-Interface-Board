@@ -27,10 +27,10 @@ Functionality
 
 The BMS Interface Board acts as a central physical hub to help integrate Ewert Energy Systems's Orion battery management system with existing circuits inside the car. It incorporates the following functionality:
 
-- Provides fused power distribution to the BMS (+12V), an Orion Thermistor Expansion Module (+12V), and a Premo hall-effect current transducer (+/-15V) both whilst driving and charging.
-- Interfaces the open drain Charge Safety, Discharge Enable, and Charge Enable outputs from the BMS with their corresponding circuits in the car via relays.
-- Converts the current output of the Premo current transducer to a 1-4V input signal for the BMS.
-- Connects the Orion Thermistor Expansion Module to the BMS via the CAN1 bus and outputs CAN1 to a DB9 connector to interface with the Orion CANdapter (a CAN-to-USB adapter used for BMS programming purposes and firmware updates).
+• Provides fused power distribution to the BMS (+12V), an Orion Thermistor Expansion Module (+12V), and a Premo hall-effect current transducer (+/-15V) both whilst driving and charging.
+• Interfaces the open drain Charge Safety, Discharge Enable, and Charge Enable outputs from the BMS with their corresponding circuits in the car via relays.
+• Converts the current output of the Premo current transducer to a 1-4V input signal for the BMS.
+• Connects the Orion Thermistor Expansion Module to the BMS via the CAN1 bus and outputs CAN1 to a DB9 connector to interface with the Orion CANdapter (a CAN-to-USB adapter used for BMS programming purposes and firmware updates).
 
 ----------
 Specifications
