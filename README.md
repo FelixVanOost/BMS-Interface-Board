@@ -6,7 +6,7 @@ A PCB to interface some of the main I/O functions of the [Orion BMS](http://www.
 
 This project is developed by the [Electric Car Club](http://ubcelectriccar.com/) at the University of British Columbia, whose current goal is to break the world record for the fastest 1/4 mile in a street-legal electric car. The car, named Elektra, is a 1963 Volkswagen Beetle.
 
-![Image of BMS Interface Board](https://raw.githubusercontent.com/FelixVanOost/BMS-Interface-Board/master/Photos%20%26%20Renderings/BMS%20Interface%20Board%201.JPG)
+![Image of BMS Interface Board](https://raw.githubusercontent.com/FelixVanOost/BMS-Interface-Board/master/Photos%20%26%20Renderings/BMS%20Interface%20Board%20-%20Thumbnail.JPG)
 *BMS Interface Board - Rev. A*
 
 ----------
